@@ -34,6 +34,10 @@ RCT_EXPORT_MODULE(ReactNativePagedContacts);
 
 - (NSDictionary *)constantsToExport
 {
+	if (&CNContactIdentifierKey == nil) {
+		// prevent crash on iOS8
+		return @{};
+	}
 	NSMutableDictionary *constants = [@{
 										@"identifier": CNContactIdentifierKey,
 										@"displayName": @"displayName",
