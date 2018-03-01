@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/wix/react-native-paged-contacts.git"
   },
-  "version": "1.0.20",
+  "version": "1.0.22",
   "description": "React Native Paged Contacts",
   "nativePackage": true,
   "keywords": [
@@ -17,9 +17,9 @@
   "peerDependencies": {
     "react-native": "0.51.0"
   },
-    "devDependencies": {
+  "devDependencies": {
     "react-native": "0.51.0"
-},
+  },
   "bugs": {
     "url": "https://github.com/wix/react-native-paged-contacts/issues"
   },
@@ -27,6 +27,7 @@
   "main": "index.js",
   "author": "Leo Natan <lnatan@wix.com>",
   "contributors": [
+    "Amir Uval <amiru@wix.com>",
     "Guy Carmeli <guyc@wix.com>"
   ],
   "license": "MIT"
